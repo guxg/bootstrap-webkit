@@ -21,8 +21,8 @@ class BootstrapMenu {
               <li class={ styles }><a href={ item.uri }>{ item.text }</a></li>
 
             case kids =>
-              <li class={ styles + " dropdown" } data-dropdown="dropdown" >
-                <a href="#" class="dropdown-toggle">{ item.text }</a>
+              <li class={ styles + " dropdown" } >
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >{ item.text }</a>
                 <ul class="dropdown-menu">
                   {
                     for (kid <- kids) yield {
