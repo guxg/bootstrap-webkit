@@ -1,4 +1,4 @@
-name := "bootstrap-webkit"
+name := "bootstrap"
 
 organization := "name.guxg.webkit"
 
